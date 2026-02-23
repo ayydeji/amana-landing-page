@@ -47,10 +47,12 @@ export function Header() {
         {/* Desktop nav */}
         <div className="hidden items-center gap-3 lg:flex">
           <Button asChild variant="ghost" size="default">
-            <Link href="/compliance-checklist.pdf">Download Checklist</Link>
+            <a href="/amana-aml-compliance-checklist.pdf" download>Download Checklist</a>
           </Button>
           <Button asChild size="default">
-            <a href="mailto:info@amanacompliance.co.uk?subject=Free%20Gap%20Report%20Request">
+            <a href="https://cal.com/muhammad-kamal-amana/amana-complience-gap-audit"
+              target="_blank"
+              rel="noopener noreferrer">
               Get a Free Gap Report
             </a>
           </Button>
@@ -106,19 +108,22 @@ export function Header() {
               className="flex flex-col gap-4 px-6 py-6"
             >
               <a
-                href="mailto:info@amanacompliance.co.uk?subject=Free%20Gap%20Report%20Request"
+                href="https://cal.com/muhammad-kamal-amana/amana-complience-gap-audit"
+              target="_blank"
+              rel="noopener noreferrer"
                 className="inline-flex items-center justify-center rounded-full bg-lime px-6 py-3 text-base font-semibold text-bg transition-all duration-200 hover:bg-lime-dim"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 Get a Free Gap Report
               </a>
-              <Link
-                href="/compliance-checklist.pdf"
+              <a
+                href="/amana-aml-compliance-checklist.pdf"
+                download
                 className="inline-flex items-center justify-center rounded-full border border-lime/50 px-6 py-3 text-base font-semibold text-lime transition-all duration-200 hover:border-lime hover:bg-lime/10"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 Download Checklist
-              </Link>
+              </a>
             </motion.div>
           </motion.div>
         )}

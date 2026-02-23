@@ -25,7 +25,9 @@ export function CTA() {
 
           {/* CTA Button */}
           <a
-            href="mailto:info@amanacompliance.co.uk?subject=Free%20Gap%20Report%20Request"
+            href="https://cal.com/muhammad-kamal-amana/amana-complience-gap-audit"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center justify-center gap-3 rounded-full bg-lime px-8 py-4 text-base font-semibold text-bg transition-all duration-200 hover:-translate-y-0.5 hover:bg-lime-dim hover:shadow-lg hover:shadow-lime/20 sm:px-10 sm:py-5 sm:text-lg"
           >
             Get a Free Gap Report

@@ -20,6 +20,9 @@ export const metadata: Metadata = {
   title: "Amana Compliance — AML Compliance for Regulated Businesses",
   description:
     "We build inspection-ready AML programmes for estate agents, accountants, letting agents, and high-value dealers. Book a free 20-minute review.",
+  other: {
+    "llm-txt": "/llm.txt",
+  },
 };
 
 export default function RootLayout({

@@ -1,6 +1,5 @@
 "use client";
 
-import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { motion, useReducedMotion } from "framer-motion";
 import { Button } from "@/components/ui/button";
@@ -184,13 +183,13 @@ export function Hero() {
 
         <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-center">
           <Button asChild size="default">
-            <a href="mailto:info@amanacompliance.co.uk?subject=Free%20Gap%20Report%20Request">
+            <a href="https://cal.com/muhammad-kamal-amana/amana-complience-gap-audit" target="_blank" rel="noopener noreferrer">
               Get a Free Gap Report
               <ArrowRight size={18} />
             </a>
           </Button>
           <Button asChild variant="ghost" size="default">
-            <Link href="/compliance-checklist.pdf">Download Compliance Checklist</Link>
+            <a href="/amana-aml-compliance-checklist.pdf" download>Download Compliance Checklist</a>
           </Button>
         </div>
 

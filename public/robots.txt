@@ -1,0 +1,12 @@
+# Robots.txt for Amana Compliance
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://amanacompliance.uk/sitemap.xml
+
+# LLM context file
+# Provides structured information for AI agents
+# See: https://llmtxt.org
+LLM: /llm.txt
