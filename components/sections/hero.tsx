@@ -165,18 +165,18 @@ export function Hero() {
         <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-red-border bg-red-bg px-4 py-2">
           <span className="pulse-dot h-2 w-2 rounded-full bg-red" />
           <span className="text-sm text-red">
-            369 HMRC penalties in the last 6 months
+            300+ HMRC penalties in recent months
           </span>
         </div>
 
         <h1 className="mb-4 max-w-5xl font-(family-name:--font-display) text-4xl leading-[1.1] text-text sm:text-5xl lg:text-7xl">
-          We make your business <span className="text-lime">HMRC-proof</span>{" "}
+          We make your business <span className="text-lime">inspection-ready</span>{" "}
           <span className="italic">in under a week.</span>
         </h1>
 
         <p className="mb-8 max-w-3xl text-base leading-[1.7] text-text-dim sm:text-lg">
           Bespoke AML compliance built by a{" "}
-          <span className="text-text">former Deutsche Bank second line of defence</span>
+          <span className="text-text">former tier-1 banking compliance lead</span>
           {" "}— with a <span className="text-text">12-month guarantee</span>. If
           anything we build fails an inspection,{" "}
           <span className="text-text">we fix it free</span>.
@@ -201,18 +201,18 @@ export function Hero() {
         <div className="grid w-full max-w-4xl grid-cols-1 divide-y divide-border rounded-2xl border border-border bg-bg-card sm:grid-cols-3 sm:divide-x sm:divide-y-0">
           <div className="px-6 py-6 text-center sm:px-8 sm:py-8">
             <p className="font-(family-name:--font-display) text-3xl italic text-lime sm:text-4xl">
-              £8,200
+              £5,000+
             </p>
             <p className="mt-2 text-xs text-text-dim sm:text-sm">
-              average cost of a single penalty
+              typical cost of a single penalty
             </p>
           </div>
           <div className="px-6 py-6 text-center sm:px-8 sm:py-8">
             <p className="font-(family-name:--font-display) text-3xl italic text-lime sm:text-4xl">
-              90%+
+              9 in 10
             </p>
             <p className="mt-2 text-xs text-text-dim sm:text-sm">
-              fined for missing basic controls
+              penalised for not being registered
             </p>
           </div>
           <div className="px-6 py-6 text-center sm:px-8 sm:py-8">

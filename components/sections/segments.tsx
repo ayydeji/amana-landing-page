@@ -45,10 +45,10 @@ const segments: Segment[] = [
   {
     id: "estate",
     label: "Estate Agents",
-    stat: "57%",
-    headline: "of all HMRC fines go to estate agents.",
+    stat: "170+",
+    headline: "estate agents penalised in the last reporting period.",
     description:
-      "194 agents fined over £1M in a single quarter. Most had no idea they were non-compliant. HMRC doesn't warn you first — they inspect, fine, and publish your name.",
+      "Nearly 200 agents fined over £1M in just six months. Most had no idea they were non-compliant. HMRC doesn't warn you first — they inspect, fine, and publish your name.",
     checks: [
       "AML registration",
       "Bespoke risk assessment",

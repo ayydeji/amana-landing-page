@@ -162,8 +162,8 @@ export function Features() {
           <p className="max-w-3xl text-base leading-relaxed text-text-dim lg:text-lg">
             Not a template. Not a generic manual. A complete compliance
             framework built around your business, your area, and your client
-            types — by someone who spent a decade deciding whether compliance
-            work was good enough to pass inspection at Deutsche Bank.
+            types — by someone with a decade in tier-1 banking compliance,
+            including Deutsche Bank and NatWest's second line of defence.
           </p>
         </div>
 

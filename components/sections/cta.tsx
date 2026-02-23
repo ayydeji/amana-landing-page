@@ -3,7 +3,7 @@ import { ArrowRight, Check } from "lucide-react";
 const reassurances = [
   "Free gap report",
   "20 minutes at your office",
-  "12-month inspection guarantee",
+  "12-month workmanship guarantee",
 ];
 
 export function CTA() {

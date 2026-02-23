@@ -45,7 +45,7 @@ export function Guarantee() {
               If HMRC inspects your business{" "}
               <span className="text-text">within 12 months</span> of our build
               and identifies any deficiency in the compliance framework we
-              created — any gap in the risk assessment, any missing policy, any
+              delivered — any gap in the risk assessment, any missing policy, any
               documentation shortfall —{" "}
               <span className="text-text">
                 we rebuild it at no additional cost
@@ -57,8 +57,7 @@ export function Guarantee() {
 
             {/* Tagline */}
             <p className="text-base italic text-text-faint lg:text-lg">
-              If we built it, we stand behind it. No other compliance provider
-              offers this because they can't.
+              We built it. We stand behind it.
             </p>
           </div>
         </motion.div>

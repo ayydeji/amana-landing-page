@@ -1,7 +1,7 @@
 import { Check } from "lucide-react";
 
 const nonComplianceCosts = [
-  { label: "Average HMRC fine", value: "£8,200" },
+  { label: "Typical HMRC fine", value: "£5,000+" },
   { label: "Legal representation", value: "£10,000+" },
   { label: "Public naming on register", value: "Priceless", isItalic: true },
   { label: "Lost client trust", value: "Priceless", isItalic: true },
