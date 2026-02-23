@@ -195,7 +195,7 @@ export function Hero() {
         </div>
 
         {/* Spacer to push stats bar down */}
-        <div className="flex-1" />
+        <div className="min-h-12 flex-1 sm:min-h-0" />
 
         {/* Stats bar */}
         <div className="grid w-full max-w-4xl grid-cols-1 divide-y divide-border rounded-2xl border border-border bg-bg-card sm:grid-cols-3 sm:divide-x sm:divide-y-0">

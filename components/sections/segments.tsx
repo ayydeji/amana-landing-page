@@ -143,10 +143,10 @@ export function Segments() {
   return (
     <section id="segments" className="bg-bg">
       <div className="mx-auto max-w-7xl px-6 py-24 lg:px-12">
-        {/* Header - sticky */}
+        {/* Header */}
         <div
           ref={headerRef}
-          className="sticky top-24 z-10 bg-bg pb-8 lg:static lg:pb-16"
+          className="pb-8 lg:pb-16"
         >
           <p className="mb-4 text-sm font-medium uppercase tracking-[0.2em] text-lime">
             Who this is for
@@ -204,7 +204,7 @@ export function Segments() {
                 </p>
 
                 {/* Mobile: Show card inline */}
-                <div className="mt-8 rounded-2xl bg-white p-6 lg:hidden">
+                <div className="mt-8 rotate-2 rounded-2xl bg-white p-6 shadow-lg lg:hidden">
                   <p className="mb-4 text-sm font-medium uppercase tracking-wider text-neutral-500">
                     HMRC checks for
                   </p>
