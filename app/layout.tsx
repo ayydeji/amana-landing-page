@@ -21,6 +21,18 @@ export const metadata: Metadata = {
   title: "Amana Compliance — AML Compliance for Regulated Businesses",
   description:
     "We build inspection-ready AML programmes for estate agents, accountants, letting agents, and high-value dealers. Book a free 20-minute review.",
+  icons: {
+    icon: [
+      {
+        url: "/logos/company/amana-light.png",
+        media: "(prefers-color-scheme: light)",
+      },
+      {
+        url: "/logos/company/amana-dark.svg",
+        media: "(prefers-color-scheme: dark)",
+      },
+    ],
+  },
   other: {
     "llm-txt": "/llm.txt",
   },

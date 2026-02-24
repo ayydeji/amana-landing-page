@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { Menu, X } from "lucide-react";
 import { AnimatePresence, motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
@@ -37,22 +38,30 @@ export function Header() {
         ${scrolled ? "bg-bg/88 backdrop-blur-sm" : "bg-transparent"}`}
     >
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 sm:py-6 lg:px-12 lg:py-8">
-        <Link
-          href="#"
-          className="font-(family-name:--font-display) text-2xl text-text lg:text-4xl"
-        >
-          amana<span className="text-lime">.</span>compliance
+        <Link href="#" className="block">
+          <Image
+            src="/logos/company/amana-dark-long.svg"
+            alt="Amana Compliance"
+            width={200}
+            height={40}
+            className="h-5 w-auto lg:h-6"
+            priority
+          />
         </Link>
 
         {/* Desktop nav */}
         <div className="hidden items-center gap-3 lg:flex">
           <Button asChild variant="ghost" size="default">
-            <a href="/amana-aml-compliance-checklist.pdf" download>Download Checklist</a>
+            <a href="/amana-aml-compliance-checklist.pdf" download>
+              Download Checklist
+            </a>
           </Button>
           <Button asChild size="default">
-            <a href="https://cal.com/muhammad-kamal-amana/amana-complience-gap-audit"
+            <a
+              href="https://cal.com/muhammad-kamal-amana/amana-complience-gap-audit"
               target="_blank"
-              rel="noopener noreferrer">
+              rel="noopener noreferrer"
+            >
               Get a Free Gap Report
             </a>
           </Button>
@@ -109,8 +118,8 @@ export function Header() {
             >
               <a
                 href="https://cal.com/muhammad-kamal-amana/amana-complience-gap-audit"
-              target="_blank"
-              rel="noopener noreferrer"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center justify-center rounded-full bg-lime px-6 py-3 text-base font-semibold text-bg transition-all duration-200 hover:bg-lime-dim"
                 onClick={() => setMobileMenuOpen(false)}
               >
