@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       {
-        url: "/logos/company/amana-light.png",
+        url: "/logos/company/amana-light.svg",
         media: "(prefers-color-scheme: light)",
       },
       {
