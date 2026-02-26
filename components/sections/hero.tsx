@@ -189,7 +189,7 @@ export function Hero() {
             </a>
           </Button>
           <Button asChild variant="ghost" size="default">
-            <a href="/amana-aml-compliance-checklist.pdf" download>Download Compliance Checklist</a>
+            <a href="https://spice-mambo-ebf.notion.site/The-Complete-AML-Compliance-Checklist-8566c8823a188294a16a01346f3b1e38?source=copy_link" target="_blank" rel="noopener noreferrer">Download Compliance Checklist</a>
           </Button>
         </div>
 

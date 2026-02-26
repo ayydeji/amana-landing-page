@@ -52,7 +52,7 @@ export function Header() {
         {/* Desktop nav */}
         <div className="hidden items-center gap-3 lg:flex">
           <Button asChild variant="ghost" size="default">
-            <a href="/amana-aml-compliance-checklist.pdf" download>
+            <a href="https://spice-mambo-ebf.notion.site/The-Complete-AML-Compliance-Checklist-8566c8823a188294a16a01346f3b1e38?source=copy_link" target="_blank" rel="noopener noreferrer">
               Download Checklist
             </a>
           </Button>
@@ -126,8 +126,9 @@ export function Header() {
                 Get a Free Gap Report
               </a>
               <a
-                href="/amana-aml-compliance-checklist.pdf"
-                download
+                href="https://spice-mambo-ebf.notion.site/The-Complete-AML-Compliance-Checklist-8566c8823a188294a16a01346f3b1e38?source=copy_link"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center justify-center rounded-full border border-lime/50 px-6 py-3 text-base font-semibold text-lime transition-all duration-200 hover:border-lime hover:bg-lime/10"
                 onClick={() => setMobileMenuOpen(false)}
               >
