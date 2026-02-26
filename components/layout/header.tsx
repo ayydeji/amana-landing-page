@@ -58,7 +58,7 @@ export function Header() {
           </Button>
           <Button asChild size="default">
             <a
-              href="https://cal.com/muhammad-kamal-amana/amana-complience-gap-audit"
+              href="https://cal.com/muhammad-kamal-amana/amana-compliance-gap-audit"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -117,7 +117,7 @@ export function Header() {
               className="flex flex-col gap-4 px-6 py-6"
             >
               <a
-                href="https://cal.com/muhammad-kamal-amana/amana-complience-gap-audit"
+                href="https://cal.com/muhammad-kamal-amana/amana-compliance-gap-audit"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center rounded-full bg-lime px-6 py-3 text-base font-semibold text-bg transition-all duration-200 hover:bg-lime-dim"

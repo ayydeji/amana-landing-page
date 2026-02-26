@@ -183,7 +183,7 @@ export function Hero() {
 
         <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-center">
           <Button asChild size="default">
-            <a href="https://cal.com/muhammad-kamal-amana/amana-complience-gap-audit" target="_blank" rel="noopener noreferrer">
+            <a href="https://cal.com/muhammad-kamal-amana/amana-compliance-gap-audit" target="_blank" rel="noopener noreferrer">
               Get a Free Gap Report
               <ArrowRight size={18} />
             </a>
