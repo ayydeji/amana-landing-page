@@ -1,8 +1,10 @@
 "use client";
 
+import { useState } from "react";
 import { ArrowRight } from "lucide-react";
 import { motion, useReducedMotion } from "framer-motion";
 import { Button } from "@/components/ui/button";
+import { EmailGateModal } from "@/components/shared/email-gate-modal";
 
 interface GridLightBeamProps {
   direction: "vertical" | "horizontal";
@@ -122,6 +124,8 @@ const lightBeams: GridLightBeamProps[] = [
 ];
 
 export function Hero() {
+  const [emailGateOpen, setEmailGateOpen] = useState(false);
+
   return (
     <section className="relative min-h-screen overflow-hidden bg-bg">
       {/* Faded grid background */}
@@ -188,8 +192,12 @@ export function Hero() {
               <ArrowRight size={18} />
             </a>
           </Button>
-          <Button asChild variant="ghost" size="default">
-            <a href="https://spice-mambo-ebf.notion.site/The-Complete-AML-Compliance-Checklist-8566c8823a188294a16a01346f3b1e38?source=copy_link" target="_blank" rel="noopener noreferrer">Download Compliance Checklist</a>
+          <Button
+            variant="ghost"
+            size="default"
+            onClick={() => setEmailGateOpen(true)}
+          >
+            Download Compliance Checklist
           </Button>
         </div>
 
@@ -224,6 +232,9 @@ export function Hero() {
           </div>
         </div>
       </div>
+
+      {/* Email Gate Modal */}
+      <EmailGateModal open={emailGateOpen} onOpenChange={setEmailGateOpen} />
     </section>
   );
 }
